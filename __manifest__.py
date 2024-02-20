@@ -4,6 +4,12 @@
     "version": "1.0",
     "depends": ["base"],
     "data": [
-        
-    ]
+        'views/views.xml',
+        'security/ir_model_acces.xml'
+    ],
+    "assets": {
+        'web.assets_backend': [
+            "saldo_app/static/css/style.css"
+        ]
+    }
 }

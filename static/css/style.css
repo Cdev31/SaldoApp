@@ -1,0 +1,37 @@
+.font-color{
+    color: rgba(0, 0, 0, 0.829);
+}
+
+.form-move{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.o_inner_group{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.o_form_label{
+    font-weight: bold;
+    color: rgb(33, 73, 75);
+    transform: scale(1.3);
+    margin-left: 10px;
+}
+
+
+
+.o_input{
+    border-width: 2px;
+    height: 35px;
+    font-size: 18px;
+    border-radius: 5px;
+    border-color: cadetblue;
+    font-weight: bold;
+}
+
+.o_input:focus{
+    outline: none;
+}
