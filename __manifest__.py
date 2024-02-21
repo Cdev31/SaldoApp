@@ -3,6 +3,7 @@
     "description": "Aplicacion web para registart ingresos y egresos",
     "version": "1.0",
     "depends": ["base", "mail"],
+
     "data": [
         'views/views.xml',
         'security/ir_model_acces.xml'
